@@ -3,6 +3,10 @@
     "WSL": {
       "commandName": "WSL2",
       "distributionName": ""
+    },
+    "Adapter": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Media\\Dokumenti\\Projects\\Design Patterns\\Adapter\\bin\\Debug\\net6.0\\Adapter.exe"
     }
   }
 }

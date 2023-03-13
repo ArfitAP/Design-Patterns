@@ -1,1 +1,22 @@
-﻿Console.Title = "Adapter";
+﻿/*using Adapter;
+
+Console.Title = "Adapter";
+
+ICityAdapter adapter = new CityAdapter();
+
+var city = adapter.GetCity();
+
+Console.WriteLine($"{city.FullName}, {city.Inhabitants}");
+Console.ReadLine();
+*/
+
+using ClassAdapter;
+
+Console.Title = "Adapter";
+
+ICityAdapter adapter = new CityAdapter();
+
+var city = adapter.GetCity();
+
+Console.WriteLine($"{city.FullName}, {city.Inhabitants}");
+Console.ReadLine();
